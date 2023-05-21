@@ -1,0 +1,34 @@
+.InteractiveHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.HeaderTitle {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: .5em;
+}
+
+.HeaderSubTitle {
+    font-size: 22px;
+}
+
+.HeaderButton {
+    background: #01508c;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    line-height: .9;
+    font-size: 18px;
+    padding: 1em 1.3em;
+    border-radius: 6px;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background-color: darken(#01508c, 5%);
+        box-shadow: 3px 3px 0px 3px rgba(#01508c,.25);
+        cursor: pointer;
+    }
+}
